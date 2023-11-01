@@ -1,0 +1,43 @@
+.header-parent {
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  background: white;
+  width: 100%;
+}
+
+.header-container {
+  display: flex;
+  // box-shadow: 0px 10px 10px 3px rgba(0, 0, 0, 0.3);
+}
+.sidebar-container {
+  display: none;
+}
+
+.navigation-container {
+  margin-left: auto;
+  display: block;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+  flex: 1;
+}
+
+.contact-us {
+  display: flex;
+  align-items: flex-end;
+}
+
+@media only screen and (max-width: 767px) {
+  .sidebar-container {
+    display: unset;
+    margin-left: auto;
+    margin-right: 23px;
+  }
+  .toolbar {
+    display: none;
+  }
+}

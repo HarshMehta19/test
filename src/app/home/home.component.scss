@@ -1,0 +1,84 @@
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card-parent {
+  flex: 0 0 33.333333%;
+  // flex: 0 0 33.333333%;
+  // max-width: 328px;
+  /* width: 100px; */
+  /* padding: 32px 25px; */
+  box-shadow: 2px 2px 2px 3px #f4efef;
+  // margin: 0 12px 20px;
+  // max-width: 382px;
+  // height: 100%;
+}
+.service_in {
+  // padding: 32px 25px;
+  margin: 0 12px 20px;
+  max-width: 382px;
+}
+
+.table-row {
+  display: table-row;
+}
+
+@media only screen and (max-width: 767px) {
+  .service_in {
+    padding: 25px 20px;
+    margin: 0 auto 20px;
+    max-width: 400px !important;
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .service_in {
+    padding: 25px 20px;
+    margin: 0 12px 20px;
+    max-width: 210px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .service_in {
+    padding: 32px 25px;
+    margin: 0 12px 20px;
+    max-width: 290px;
+  }
+}
+
+.table-row {
+  .col-company {
+    padding: 25px;
+
+    padding: 20px 45px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    border-bottom: 2px solid #ddd;
+    width: 50%;
+  }
+
+  .right-side {
+    // background: #0079bf
+    background: black;
+    color: #fff;
+  }
+
+  .left-side {
+    background: white;
+    text-align: left;
+  }
+
+  .what-we-do {
+    font-family: "poppins", sans-serif;
+    font-weight: 600;
+  }
+  .title {
+    font-family: "poppins", sans-serif;
+    color: #fff;
+  }
+}
